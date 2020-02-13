@@ -44,7 +44,7 @@ Restoring weights...
 
 ### Run my pre-trained model
 
-- **Download [my pre-trained model](https://drive.google.com/uc?id=1rRRY-y1KdVk4UB5qhu7BjQHtfadIOmMk&export=download)** (2.3 GB). The zip file extracts into a folder named "reddit". Place that folder into the "models" directory of this project.
+- **Download [my pre-trained model](https://drive.google.com/open?id=1r9Rz8f4n-theFQRM-qCZoGHugWqrKaXe)** (2.3 GB). The zip file extracts into a folder named "reddit". Place that folder into the "models" directory of this project.
 
 - **Run the chatbot**. Open a terminal session and run `python3 chatbot.py`. Warning: this pre-trained model was trained on a diverse set of frequently off-color Reddit comments. It can (and eventually will) say things that are offensive, disturbing, bizarre or sexually explicit. It may insult minorities, it may call you names, it may accuse you of being a pedophile, it may try to seduce you. Please don't use the chatbot if these possibilities would distress you!
 
