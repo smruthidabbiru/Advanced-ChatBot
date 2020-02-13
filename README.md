@@ -112,7 +112,3 @@ Once you have training data in hand (and located in a subdirectory of the `data`
 - **Train.** Use `train.py` to train the model. The default hyperparameters are the best that I've found, and are what I used to train the pre-trained model for a couple of months. These hyperparameters will just about fill the memory of a GTX 1080 Ti GPU (11 GB of VRAM), so if you have a smaller GPU, you will need to adjust them accordingly (for example, set --num_blocks to 2).
 
   Training can be interrupted with crtl-c at any time, and will immediately save the model when interrupted. Training can be resumed on a saved model and will automatically carry on from where it was interrupted.
-
-## Thanks
-
-Thanks to Andrej Karpathy for his [char-rnn](https://github.com/karpathy/char-rnn) repo, and to Sherjil Ozair for his [TensorFlow port](https://github.com/sherjilozair/char-rnn-tensorflow) of char-rnn, which this repo is based on.
